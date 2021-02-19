@@ -1,0 +1,74 @@
+.SearchPage .header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  background-color: white;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+.SearchPage .header img {
+  height: 50px;
+  margin-right: 50px;
+}
+
+.searchResultOptions {
+  width: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  overflow-x: scroll;
+}
+.searchResultOptions::-webkit-scrollbar {
+  display: none;
+}
+.searchResultOptions div.left,
+.searchResultOptions div.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchResultOptions div.left div,
+.searchResultOptions div.right div {
+  padding: 0.5rem;
+}
+.searchResultOptions div.left {
+  padding-right: 5rem;
+}
+.searchResultOptions a {
+  color: #00000096;
+  text-decoration: none;
+}
+.searchResultOptions a:hover {
+  text-decoration: underline;
+}
+.optionIcon {
+  margin-bottom: -0.5rem;
+  color: #00000080;
+}
+
+.searchTime {
+  padding: 3rem;
+  color: #00000080;
+}
+
+.results a {
+  text-decoration: none;
+}
+.results p {
+  color: #00000097;
+}
+.result img {
+  width: 2rem;
+  height: 1rem;
+  padding-right: 0.5rem;
+}
+.result {
+  padding: 0 3rem;
+  margin-bottom: 30px;
+}
